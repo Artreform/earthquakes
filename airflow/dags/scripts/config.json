@@ -1,0 +1,11 @@
+{"config_user": {
+    "sql_paths": {
+      "create_table": "sql/create_table.sql",
+      "daily_users_table": "sql/daily_users.sql",
+      "insert_user": "/opt/airflow/dags/sql/insert_user.sql",
+      "load_to_core": "/opt/airflow/dags/sql/load_to_core.sql",
+      "user_age_table": "sql/user_age.sql"
+    }
+  }  
+}
+
