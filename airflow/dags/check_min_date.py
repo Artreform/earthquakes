@@ -7,7 +7,7 @@ URL = "https://earthquake.usgs.gov/fdsnws/event/1/query"
 def find_earliest_year(URL: str) -> int:
     """Функция определяет минимальный год, в котором есть данные по землятресениям
     @param: на вход принимаем адрес сайта с данными по землетрясениям
-    @return: возвращаем год в формате int"""
+    @return: возвращаем год в формате int """
 
     min_year = 1600
     current_year = 2024

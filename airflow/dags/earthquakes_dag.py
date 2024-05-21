@@ -18,7 +18,7 @@ logging.basicConfig(
 default_args = {
     'owner': 'Artem Kozlov',
     'depends_on_past': False,
-    'start_date': pendulum.datetime(2024, 5, 15, tz="UTC"),
+    'start_date': pendulum.datetime(1615, 9, 8, tz="UTC"),
     'tags': 'earthquakes parsing'
 }
 
