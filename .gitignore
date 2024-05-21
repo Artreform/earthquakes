@@ -4,7 +4,9 @@
 
 **/airflow/plugins/
 
-**/airflow/dags/_pycache_/
+**/airflow/dags/__pycache__/
+
+**/airflow/dags/scripts/
 
 **/dwh_data/
 
